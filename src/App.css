@@ -3,7 +3,7 @@ body {
   background-position: center;
   position: relative;
   overflow-x: hidden;
-  background-image: url("./public/assets/images/bg/bg.svg");
+  background-image: url("./assets/images/bg/bg.svg");
 }
 
 .content {
@@ -12,12 +12,12 @@ body {
 }
 
 .page-noise {
-  background-image: url("./public/assets/images/header/bgNoiseEffect.svg");
+  background-image: url("./assets/images/header/bgNoiseEffect.svg");
   z-index: 1000 !important;
 }
 
 .box-section {
-  background-image: url("./public/assets/images/bg/midIll.svg");
+  background-image: url("./assets/images/bg/midIll.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
