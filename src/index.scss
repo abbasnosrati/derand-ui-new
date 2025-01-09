@@ -19,7 +19,7 @@
 }
 
 .number-box {
-  @apply border border-primary flex text-[46px] items-center justify-center w-12 h-12;
+  @apply border border-dashed border-[#e3d8d886] flex text-[46px] items-center justify-center w-12 h-12;
 }
 
 .number-box-border {
@@ -31,7 +31,7 @@
 }
 
 .footer-text {
-  @apply above-lg:pr-2 above-lg:pb-1 above-lg:text-[12px] text-[10px];
+  @apply above-lg:pr-2 above-lg:pb-1 md:text-[12px] text-[10px] text-white;
 }
 
 .footer-border-style {

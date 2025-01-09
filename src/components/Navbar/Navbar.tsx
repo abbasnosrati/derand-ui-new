@@ -7,7 +7,7 @@ const Navbar = () => {
     "./assets/images/socials/x.svg",
   ];
   return (
-    <div className="flex text-[12px] z-50 justify-between md:text-base items-center pl-1 leading-normal font-shareTechMono border-b border-whiteColor text-white w-full max-w-[455px] h-[34px]">
+    <div className="flex text-[12px] z-50 justify-between md:text-base items-center pl-1 leading-normal font-shareTechMono border-b border-whiteColor text-whiteColor w-full max-w-[455px] h-[34px]">
       {menuItems.map((item, index) => (
         <div className="cursor-pointer" key={index}>
           {item}

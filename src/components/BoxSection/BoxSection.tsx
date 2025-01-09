@@ -9,7 +9,7 @@ const BoxSection = () => {
                 <BorderAnimate />
                 <div>Chain-Agnostic</div>
               </div>
-              <div className="max-w-[285px] font-lato -mb-[5px]">
+              <div className="max-w-[285px] font-lato -mb-[5px] leading-[16px]">
                 DeRand is built on top of the Muon network, so it generates
                 random seeds off-chain in a decentralized way using Muon’s TSS
                 network. Therefore, it can be used on any EVM or Non-EVM
@@ -202,10 +202,10 @@ export default BoxSection;
 const BorderAnimate = () => {
   return (
     <div>
-      <span className="animation-border-spin-x  dashing absolute left-0 top-0 border-t border-dashed w-[200%] h-full"></span>
-      <span className="animation-border-spin-y border-r border-dashed top-0 left-0 absolute w-full h-[200%]"></span>
-      <span className="animation-border-spin-yy animation-test  dashing absolute left-0 top-0  border-l border-dashed w-full h-[200%]"></span>
-      <span className="animation-border-spin-xx absolute left-0 bottom-0 border-b border-dashed w-[200%] h-full "></span>
+      <span className="animation-border-spin-x  dashing absolute left-0 top-0 border-whiteColor border-t border-dashed w-[200%] h-full opacity-40"></span>
+      <span className="animation-border-spin-y border-r border-dashed top-0 left-0 absolute w-full h-[200%] border-whiteColor opacity-40"></span>
+      <span className="animation-border-spin-yy animation-test  dashing absolute left-0 top-0  border-l border-dashed w-full h-[200%] border-whiteColor opacity-40"></span>
+      <span className="animation-border-spin-xx absolute left-0 bottom-0 border-b border-dashed w-[200%] h-full border-whiteColor opacity-40"></span>
     </div>
   );
 };
