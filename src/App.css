@@ -1,0 +1,86 @@
+body {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow-x: hidden;
+  background-image: url("./public/assets/images/bg/bg.svg");
+}
+
+.content {
+  background-color: rgb(0, 0, 0);
+  mix-blend-mode: hard-light;
+}
+
+.page-noise {
+  background-image: url("./public/assets/images/header/bgNoiseEffect.svg");
+  z-index: 1000 !important;
+}
+
+.box-section {
+  background-image: url("./public/assets/images/bg/midIll.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.example-section {
+  position: relative;
+}
+
+.footer {
+  background-image: url("./assets/images/bg/footer.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@keyframes slideDashX {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.animation-border-spin-x {
+  animation: slideDashX 5s infinite linear;
+}
+
+@keyframes slideDashXX {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animation-border-spin-xx {
+  animation: slideDashXX 5s infinite linear;
+}
+
+@keyframes slideDashY {
+  from {
+    transform: translateY(-50%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.animation-border-spin-y {
+  animation: slideDashY 5s infinite linear;
+}
+
+@keyframes slideDashYY {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+.animation-border-spin-yy {
+  animation: slideDashYY 5s infinite linear;
+}

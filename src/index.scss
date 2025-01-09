@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box-style {
+  @apply flex p-2 text-sm items-end relative overflow-hidden;
+}
+
+.box-style-small {
+  @apply flex text-center text-[12px] font-bold p-1 items-center justify-center relative overflow-hidden;
+}
+
+.border-primary {
+  @apply border-dashed border-whiteColor;
+}
+
+.border-opacity {
+  @apply border-dashed border-borderColor;
+}
+
+.number-box {
+  @apply border border-primary flex text-[46px] items-center justify-center w-12 h-12;
+}
+
+.number-box-border {
+  @apply opacity-30 border-t border-whiteColor brightness-50 border-dashed absolute;
+}
+
+.footer-txt-container {
+  @apply flex above-lg:items-end above-lg:justify-end items-center justify-center;
+}
+
+.footer-text {
+  @apply above-lg:pr-2 above-lg:pb-1 above-lg:text-[12px] text-[10px];
+}
+
+.footer-border-style {
+  @apply border-r border-opacity;
+}
+
+.footer-row-h {
+  @apply w-full above-lg:h-[60px] h-[30px] flex;
+}
+
+.footer-cel {
+  @apply footer-row-h border-b border-opacity;
+}
+
+.small_box {
+  @apply flex flex-col gap-2 text-[10px] font-bold;
+}
+
+.scramble-items {
+  opacity: 0.2;
+}
