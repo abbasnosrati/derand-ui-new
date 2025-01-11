@@ -1,3 +1,4 @@
+// font-quantico
 const Footer = () => {
   return (
     <div className="text-whiteColor m-0 w-full above-lg:h-[420px] h-[200px] -mt-10 footer">
@@ -15,8 +16,12 @@ const Footer = () => {
           </div>
           <div className=" flex w-full  ">
             <div className="w-[66.5%] border-opacity border-b flex items-center justify-center">
-              <div className="w-full h-full flex items-center justify-center p-5">
-                <img src="./assets/images/footer/derand-logo.svg" alt="" />
+              <div className="w-full h-full flex items-center justify-center">
+                <img
+                  src="./assets/images/footer/derand-logo-footer.svg"
+                  alt=""
+                  width={"60%"}
+                />
               </div>
             </div>
             <div className="w-[33.5%]  border-l border-opacity">
