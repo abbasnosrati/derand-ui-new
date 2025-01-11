@@ -24,16 +24,7 @@ const Footer = () => {
               <div className=" footer-row-h w-full  border-b border-opacity h-full "></div>
             </div>
           </div>
-          {/* <div className="footer-row-h  flex">
-            <div className="w-full h-full bg-red-400"></div>
-            <div className="w-full h-full bg-red-400 footer-border-style"></div>
-            <div className="w-full h-full border-b border-opacity bg-blue-400"></div>
-          </div>
-          <div className="footer-row-h   border-b border-opacity flex">
-            <div className="w-full h-full bg-red-400"></div>
-            <div className="w-full h-full footer-border-style bg-red-400"></div>
-            <div className="w-full h-full bg-blue-400"></div>
-          </div> */}
+
           <div className="footer-cel">
             <div className="w-full h-full footer-border-style"></div>
             <div className="w-full h-full footer-border-style footer-txt-container ">
