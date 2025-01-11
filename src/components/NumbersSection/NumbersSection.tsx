@@ -2,7 +2,7 @@ import ScrambleText from "../../helper/ScrambleText";
 
 const NumbersSection = () => {
   return (
-    <div className="absolute left-0 right-0 bottom-0 top-0 font-shareTechMono">
+    <div className="absolute left-0 right-0 bottom-0 top-0 font-shareTechMono select-none">
       <div className="relative w-full h-full">
         <div className="absolute scramble-items top-[85px] left-[190px] text-sm">
           <ScrambleText value={"285859990001"} />
