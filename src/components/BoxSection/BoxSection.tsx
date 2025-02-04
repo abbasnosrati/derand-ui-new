@@ -1,7 +1,7 @@
 const BoxSection = () => {
   return (
     <div>
-      <div className="text-exampleColor hidden lg:flex text-sm font-shareTechMono relative  md:min-h-[1400px] -mt-[300px]  box-section  select-none z-30">
+      <div className="text-exampleColor hidden lg:flex text-sm font-shareTechMono -mt-[300px] above-1440:-mt-[250px] relative md:min-h-[1400px] box-section select-none z-30">
         <div className="box-container absolute right-[42.5%] top-[27%] custom-lg:right-[35%]">
           <div className=" flex relative max-w-[500px]">
             <div className="box-1 flex gap-5 items-end ">
@@ -10,10 +10,9 @@ const BoxSection = () => {
                 <div>Chain-Agnostic</div>
               </div>
               <div className="max-w-[285px] font-lato -mb-[5px] leading-[16px]">
-                DeRand is built on top of the Muon network, so it generates
-                random seeds off-chain in a decentralized way using Muon’s TSS
-                network. Therefore, it can be used on any EVM or Non-EVM
-                blockchain
+                Generate a random number on one chain and use it on any EVM and
+                non-EVM chains. Thanks to Muon’ intrinsic chain-independant
+                nature.
               </div>
             </div>
             <div className="number-box absolute left-[175px] top-[212px]">
@@ -25,16 +24,16 @@ const BoxSection = () => {
           </div>
         </div>
 
-        <div className="box-container absolute right-[17%] top-[32%] custom-lg:right-[7%] ">
+        <div className="box-container absolute right-[17%] above-1440:right-[25%] top-[32%] custom-lg:right-[7%] ">
           <div className=" flex relative max-w-[500px]">
             <div className="box-1 flex flex-col gap-5 ">
               <div className="w-[124px] h-[124px] box-style">
                 <BorderAnimate />
-                <div>Cost Efficient</div>
+                <div>Flexible</div>
               </div>
               <div className="max-w-[270px] font-lato -mb-[5px]">
-                You only need to pay for the gas fee of the blockchain and the
-                Muon network
+                Due to the innate flexibility of MuonApps, devs can customize
+                the generation process according to their unique needs.
               </div>
             </div>
             <div className="number-box absolute -left-[105px] top-[175px]">
@@ -49,14 +48,14 @@ const BoxSection = () => {
         <div className="box-container absolute left-[16%] top-[42%]  ">
           <div className=" flex relative max-w-[500px]">
             <div className="box-1 flex flex-col gap-5 ">
-              <div className="w-[124px] h-[124px] box-style ">
+              <div className="w-[124px] h-[124px] box-style">
                 <BorderAnimate />
-                <div>Easy Implementation</div>
+                <div>Tamper-Proof</div>
               </div>
               <div className="max-w-[264px] font-lato -mb-[5px]">
-                Smart contract libraries and the protocol structure are
-                compatible with other VRF platforms. Requires minimal code
-                changes for developers
+                Leveraging Muon modular security stack (Muon TSS, EigenLayer , &
+                a Shield Server) makes the random number highly
+                tamper-resistant.
               </div>
             </div>
 
@@ -69,17 +68,16 @@ const BoxSection = () => {
           </div>
         </div>
 
-        <div className="box-container absolute right-[19%] top-[55%] custom-lg:right-[8%] custom-lg:top-[52%]">
+        <div className="box-container absolute right-[19%] top-[55%] above-1440:right-[24%] custom-lg:right-[8%] custom-lg:top-[52%]">
           <div className=" flex relative max-w-[500px]">
             <div className="box-1 flex flex-col gap-5 ">
               <div className="w-[130px] h-[130px] box-style">
                 <BorderAnimate />
-                <div>Permissionless, Modular & Flexible</div>
+                <div>Cost-Efficient</div>
               </div>
               <div className="max-w-[264px] font-lato -mb-[5px]">
-                DeRand protocol is modular and flexible, allowing different
-                parties to run different parts of the protocol. There is no
-                central authority.
+                Generating random numbers on DeRand is almost free. Just pay the
+                gas fee for the blockchain and Muon.
               </div>
             </div>
             <div className="number-box absolute -left-[100px] top-[15px]">
@@ -91,16 +89,16 @@ const BoxSection = () => {
           </div>
         </div>
 
-        <div className="box-container absolute right-[40%] top-[67%] custom-lg:right-[50%] custom-lg:top-[65%]">
+        <div className="box-container absolute right-[52%] top-[69%] custom-lg:right-[50%] custom-lg:top-[65%]">
           <div className=" flex relative max-w-[500px]">
-            <div className="box-1 flex flex-row items-end gap-5 custom-lg:flex-col custom-lg:items-start">
+            <div className="box-1 flex flex-col  gap-5 custom-lg:flex-col custom-lg:items-start">
               <div className="w-[170px] h-[170px] box-style">
                 <BorderAnimate />
-                <div>Decentralized & Censorship Resistant</div>
+                <div>Decentralized & Permission less</div>
               </div>
               <div className="max-w-[264px] font-lato -mb-[5px]">
-                100% decentralized and censorship-resistant, using Muon's TSS
-                network to generate random numbers
+                Built on a network with hundreds of nodes, there is no central
+                authority and different parties can run different components.
               </div>
             </div>
             <div className="number-box absolute left-[180px] -top-[100px]">
@@ -111,9 +109,30 @@ const BoxSection = () => {
             <div className=" w-[222px] number-box-border -rotate-[75deg] top-[58px] left-[88px]"></div>
           </div>
         </div>
+        <div className="box-container absolute right-[25%] top-[77%] custom-lg:right-[17%] custom-lg:top-[72%] above-1440:right-[31%] above-1440:top-[77%]">
+          <div className=" flex relative max-w-[500px]">
+            <div className="box-1 flex flex-col gap-5 ">
+              <div className="w-[168px] h-[168px] box-style">
+                <BorderAnimate />
+                <div>Easy-Implementation</div>
+              </div>
+              <div className="max-w-[264px] font-lato -mb-[5px]">
+                Implement DeRand with minimal code changes. The protocol
+                structure is compatible with other VRF platforms including
+                Chainlink.
+              </div>
+            </div>
+            <div className="number-box absolute -left-[75px] -top-[180px]">
+              6
+            </div>
+            <div className=" w-[258px] number-box-border rotate-[43deg] -top-[92px] -left-[60px]"></div>
+            <div className=" w-[188px] number-box-border rotate-[68deg] -top-[88px] -left-[130px]"></div>
+            <div className=" w-[300px] number-box-border rotate-[76deg] top-[15px] -left-[188px]"></div>
+          </div>
+        </div>
       </div>
 
-      <div className="flex sm:justify-center pl-5 sm:md-0 flex-wrap flex-row w-full lg:hidden text-whiteColor gap-10 -mt-40 mb-40">
+      <div className="flex sm:justify-center pl-5 sm:md-0 flex-wrap items-center justify-center flex-row w-full lg:hidden text-whiteColor gap-10 mt-40 mb-40">
         <div className="box-container">
           <div className="">
             <div className="small_box">
@@ -122,10 +141,9 @@ const BoxSection = () => {
                 <div>Chain-Agnostic</div>
               </div>
               <div className="max-w-[285px] font-lato -mb-[5px]">
-                DeRand is built on top of the Muon network, so it generates
-                random seeds off-chain in a decentralized way using Muon’s TSS
-                network. Therefore, it can be used on any EVM or Non-EVM
-                blockchain
+                Generate a random number on one chain and use it on any EVM and
+                non-EVM chains. Thanks to Muon’ intrinsic chain-independent
+                nature.
               </div>
             </div>
           </div>
@@ -136,11 +154,11 @@ const BoxSection = () => {
             <div className="small_box">
               <div className="w-[124px] h-[124px] box-style-small">
                 <BorderAnimate />
-                <div>Cost Efficient</div>
+                <div>Flexible</div>
               </div>
               <div className="max-w-[270px] font-lato -mb-[5px]">
-                You only need to pay for the gas fee of the blockchain and the
-                Muon network
+                Due to the innate flexibility of MuonApps, devs can customize
+                the generation process according to their unique needs.
               </div>
             </div>
           </div>
@@ -151,12 +169,12 @@ const BoxSection = () => {
             <div className="small_box ">
               <div className="w-[124px] h-[124px] box-style-small">
                 <BorderAnimate />
-                <div>Easy Implementation</div>
+                <div>Tamper-Proof</div>
               </div>
               <div className="max-w-[264px] font-lato -mb-[5px]">
-                Smart contract libraries and the protocol structure are
-                compatible with other VRF platforms. Requires minimal code
-                changes for developers
+                Leveraging Muon modular security stack (Muon TSS, EigenLayer , &
+                a Shield Server) makes the random number highly
+                tamper-resistant.
               </div>
             </div>
           </div>
@@ -167,12 +185,11 @@ const BoxSection = () => {
             <div className="small_box ">
               <div className="w-[124px] h-[124px] box-style-small">
                 <BorderAnimate />
-                <div>Permissionless, Modular & Flexible</div>
+                <div>Cost-Efficient</div>
               </div>
               <div className="max-w-[264px] font-lato -mb-[5px]">
-                DeRand protocol is modular and flexible, allowing different
-                parties to run different parts of the protocol. There is no
-                central authority.
+                Generating random numbers on DeRand is almost free. Just pay the
+                gas fee for the blockchain and Muon.
               </div>
             </div>
           </div>
@@ -183,11 +200,27 @@ const BoxSection = () => {
             <div className="small_box">
               <div className="w-[124px] h-[124px] box-style-small">
                 <BorderAnimate />
-                <div>Decentralized & Censorship Resistant</div>
+                <div>Decentralized & Permission less</div>
               </div>
               <div className="max-w-[264px] font-lato -mb-[5px]">
-                100% decentralized and censorship-resistant, using Muon's TSS
-                network to generate random numbers
+                Built on a network with hundreds of nodes, there is no central
+                authority and different parties can run different components.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="box-container">
+          <div className="">
+            <div className="small_box">
+              <div className="w-[124px] h-[124px] box-style-small">
+                <BorderAnimate />
+                <div>Easy-Implementation</div>
+              </div>
+              <div className="max-w-[264px] font-lato -mb-[5px]">
+                Implement DeRand with minimal code changes. The protocol
+                structure is compatible with other VRF platforms including
+                Chainlink.
               </div>
             </div>
           </div>

@@ -19,8 +19,9 @@ body {
 .box-section {
   background-image: url("./assets/images/bg/midIll.svg");
   background-size: cover;
+
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
 }
 
 .example-section {

@@ -2,7 +2,7 @@ const Example = () => {
   return (
     <div className="example-section text-whiteColor text-[12px] justify-center flex font-shareTechMono relative min-h-[700px] lg:min-h-[1000px]  px-5">
       <img
-        className="absolute -top-[235px]"
+        className="absolute -top-[235px] right-0"
         src="./assets/images/bg/exampleSectionBg.svg"
         alt=""
       />

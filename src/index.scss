@@ -31,7 +31,7 @@
 }
 
 .footer-text {
-  @apply above-lg:pr-4 above-lg:pb-2 md:text-[12px] text-[10px] text-whiteColor font-shareTechMono;
+  @apply above-lg:pr-4 above-lg:pb-2 md:text-[12px] above-1440:text-sm text-[10px] text-whiteColor font-shareTechMono;
 }
 
 .footer-border-style {

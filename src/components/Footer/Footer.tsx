@@ -33,7 +33,7 @@ const Footer = () => {
           <div className="footer-cel">
             <div className="w-full h-full footer-border-style"></div>
             <div className="w-full h-full footer-border-style footer-txt-container ">
-              <p className="footer-text">By muon</p>
+              <p className="footer-text !font-montserrat">By muon</p>
             </div>
             <div className="w-full h-full"></div>
           </div>
