@@ -23,12 +23,15 @@ const Footer = () => {
           </div>
           <div className=" flex w-full  ">
             <div className="w-[66.5%] border-opacity border-b flex items-center justify-center">
-              <div className="w-full h-full flex items-center justify-center">
+              <div className="w-full h-full flex items-center justify-center relative">
                 <img
                   src="./assets/images/footer/derand-logo-footer.svg"
                   alt=""
                   width={"60%"}
                 />
+                <p className="footer-text !font-montserrat absolute bottom-1 sm:right-28">
+                  By muon
+                </p>
               </div>
             </div>
             <div className="w-[33.5%]  border-l border-opacity">
@@ -40,7 +43,7 @@ const Footer = () => {
           <div className="footer-cel">
             <div className="w-full h-full footer-border-style"></div>
             <div className="w-full h-full footer-border-style footer-txt-container ">
-              <p className="footer-text !font-montserrat">By muon</p>
+              {/* <p className="footer-text !font-montserrat">By muon</p> */}
             </div>
             <div className="w-full h-full"></div>
           </div>
