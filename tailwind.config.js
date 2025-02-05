@@ -19,6 +19,7 @@ export default {
       },
       screens: {
         "above-lg": { min: "1024px" },
+        "above-1024": { min: "1025px" },
         "custom-lg": { max: "1179px", min: "1024px" },
         "above-1440": { min: "1441px" },
       },

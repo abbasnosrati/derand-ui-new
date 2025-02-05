@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .box-style {
-  @apply flex p-2 text-sm items-end relative overflow-hidden;
+  @apply flex p-2 pb-3 text-sm lg:text-[18px] above-1440:text-[20px] items-end relative overflow-hidden text-center;
 }
 
 .box-style-small {

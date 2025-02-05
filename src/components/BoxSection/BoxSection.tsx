@@ -2,41 +2,46 @@ const BoxSection = () => {
   return (
     <div className="relative">
       <img
+        className="absolute -bottom-[200px] -left-[150px]  !z-10"
+        src="./assets/images/charts/bg.svg"
+        alt=""
+      />
+      <img
         className="absolute -top-[80px] right-0 w-full"
         src="./assets/images/bg/exampleSectionBg.svg"
         alt=""
       />
-      <div className="text-whiteColor hidden lg:flex text-base above-1440:text-[18px] font-shareTechMono relative md:min-h-[1950px] -mt-[325px] box-section select-none z-30">
-        <div className="box-container absolute right-[46.5%] top-[30%] custom-lg:top-[31%] custom-lg:right-[36%] above-1440:top-[27%] above-1440:right-[48%]">
+      <div className="text-whiteColor hidden lg:flex text-sm above-1024:text-base above-1440:text-[18px] font-shareTechMono relative md:min-h-[1950px] -mt-[325px] box-section select-none z-30">
+        <div className="box-container absolute right-[43.5%] top-[28%] custom-lg:top-[29%] custom-lg:right-[44%] above-1440:top-[28%] above-1440:right-[45%]">
           <div className=" flex relative max-w-[500px]">
             <div className="box-1 flex flex-col gap-5  ">
-              <div className="sm:w-[124px] sm:h-[124px] w-[80px] h-[80px] box-style">
+              <div className="w-[168px] h-[168px] box-style">
                 <BorderAnimate />
                 <div>Chain-Agnostic</div>
               </div>
-              <div className="max-w-[285px] font-lato -mb-[5px] ">
+              <div className=" max-w-[255px] above-1024:max-w-[355px] font-lato -mb-[5px] ">
                 Generate a random number on one chain and use it on any EVM and
                 non-EVM chains. Thanks to Muon’ intrinsic chain-independent
                 nature.
               </div>
             </div>
-            <div className="number-box absolute left-[120px] top-[290px]">
+            <div className="number-box absolute left-[160px] top-[310px]">
               1
             </div>
-            <div className=" w-[290px]  number-box-border rotate-[82deg] top-[144px] left-[2px]"></div>
-            <div className=" w-[205px]  number-box-border rotate-[78deg] top-[225px] left-[42px]"></div>
-            <div className=" w-[240px]  number-box-border rotate-[61deg] top-[230px] -left-[61px]"></div>
+            <div className=" w-[320px]  number-box-border rotate-[83deg] top-[156px] left-[29px]"></div>
+            <div className=" w-[200px]  number-box-border rotate-[78deg] top-[265px] left-[88px]"></div>
+            <div className=" w-[250px]  number-box-border rotate-[50deg] top-[265px] -left-[41px]"></div>
           </div>
         </div>
 
-        <div className="box-container absolute right-[17%] above-1440:right-[25%] top-[36%] custom-lg:top-[38%]  custom-lg:right-[2%] ">
+        <div className="box-container absolute right-[12%] above-1440:right-[21%] top-[36%] custom-lg:top-[37%]  custom-lg:right-[5%] ">
           <div className=" flex relative max-w-[500px]">
             <div className="box-1 flex flex-col gap-5 ">
-              <div className="sm:w-[124px] sm:h-[124px] w-[80px] h-[80px] box-style">
+              <div className="sm:w-[124px] sm:h-[124px] w-[80px] h-[80px] box-style text-center">
                 <BorderAnimate />
-                <div>Flexible</div>
+                <div className="text-center w-full">Flexible</div>
               </div>
-              <div className="max-w-[270px] font-lato -mb-[5px]">
+              <div className="max-w-[245px] above-1024:max-w-[350px] font-lato -mb-[5px]">
                 Due to the innate flexibility of MuonApps, devs can customize
                 the generation process according to their unique needs.
               </div>
@@ -50,39 +55,39 @@ const BoxSection = () => {
           </div>
         </div>
 
-        <div className="box-container absolute above-lg:left-[15%] above-1440:left-[25%] top-[44%] ">
+        <div className="box-container absolute above-lg:left-[8%] above-1440:left-[22%] top-[44%]  custom-lg:left-[15%]">
           <div className=" flex relative max-w-[500px]">
             <div className="box-1 flex flex-col gap-5 ">
-              <div className="sm:w-[124px] sm:h-[124px] w-[80px] h-[80px] box-style">
+              <div className="w-[150px] h-[150px] box-style">
                 <BorderAnimate />
                 <div>Tamper-Proof</div>
               </div>
-              <div className="max-w-[264px] font-lato -mb-[5px]">
-                Leveraging Muon modular security stack (Muon TSS, EigenLayer , &
-                a Shield Server) makes the random number highly
-                tamper-resistant.
+              <div className="above-1024:max-w-[350px] max-w-[255px] font-lato -mb-[5px]">
+                Leveraging Muon modular security stack (TSS, EigenLayer, &
+                Shield Server) makes the random number highly tamper-resistant.
               </div>
             </div>
 
-            <div className="number-box absolute left-[401px] top-[132px] custom-lg:left-[280px] custom-lg:top-[118px]">
+            <div className="number-box absolute left-[480px] top-[155px] custom-lg:left-[280px] custom-lg:top-[118px]">
               3
             </div>
-            <div className=" w-[350px] custom-lg:w-[230px] number-box-border rotate-[22deg] top-[65px] left-[112px] custom-lg:rotate-[30deg] custom-lg:top-[60px] custom-lg:left-[112px]"></div>
-            <div className=" w-[315px] custom-lg:w-[195px] number-box-border rotate-[10deg] top-[150px] custom-lg:top-[144px] left-[130px]"></div>
-            <div className=" w-[400px] custom-lg:w-[280px] number-box-border rotate-[8deg] top-[152px] custom-lg:top-[144px] left-[0]"></div>
+            <div className=" w-[410px] custom-lg:w-[230px] number-box-border rotate-[22deg] top-[78px] left-[135px] custom-lg:rotate-[30deg] custom-lg:top-[60px] custom-lg:left-[112px]"></div>
+            <div className=" w-[370px] custom-lg:w-[195px] number-box-border rotate-[8deg] top-[175px] custom-lg:top-[144px] left-[150px]"></div>
+            <div className=" w-[480px] custom-lg:w-[280px] number-box-border rotate-[6deg] top-[177px] custom-lg:top-[144px] -left-[0px]"></div>
           </div>
         </div>
 
-        <div className="box-container absolute right-[19%] top-[52%] above-1440:right-[24%] custom-lg:right-[2%] custom-lg:top-[52%]">
+        <div className="box-container absolute right-[5%] top-[52%] above-1440:right-[15%] custom-lg:right-[2%] custom-lg:top-[52%]">
           <div className=" flex relative max-w-[500px]">
             <div className="box-1 flex flex-col gap-5 ">
-              <div className="w-[130px] h-[130px] box-style">
+              <div className=" w-[168px] h-[168px] box-style">
                 <BorderAnimate />
                 <div>Cost-Efficient</div>
               </div>
-              <div className="max-w-[264px] font-lato -mb-[5px]">
+              <div className="above-1024:max-w-[410px] max-w-[255px] font-lato -mb-[5px]">
                 Generating random numbers on DeRand is almost free. Just pay the
-                gas fee for the blockchain and Muon.
+                gas fee for the blockchain and Muon (which is much lower than
+                current RNGs).
               </div>
             </div>
             <div className="number-box absolute -left-[100px] top-[15px]">
@@ -90,18 +95,18 @@ const BoxSection = () => {
             </div>
             <div className=" w-[100px] number-box-border -rotate-[8deg] top-[7px] -left-[100px]"></div>
             <div className=" w-[180px] number-box-border -rotate-[5deg] top-[7px] -left-[50px]"></div>
-            <div className=" w-[118px] number-box-border rotate-[34deg] top-[95px] -left-[110px]"></div>
+            <div className=" w-[145px] number-box-border rotate-[46deg] top-[117px] -left-[122px]"></div>
           </div>
         </div>
 
-        <div className="box-container absolute right-[52%] top-[62%] custom-lg:right-[45%] custom-lg:top-[60%]">
+        <div className="box-container absolute right-[46%] top-[62%] custom-lg:right-[48%] custom-lg:top-[61%] above-1440:right-[49%]">
           <div className=" flex relative max-w-[500px]">
             <div className="box-1 flex flex-col  gap-5 custom-lg:flex-col custom-lg:items-start">
-              <div className="w-[170px] h-[170px] box-style">
+              <div className=" box-style w-[200px] h-[200px]">
                 <BorderAnimate />
                 <div>Decentralized & Permissionless</div>
               </div>
-              <div className="max-w-[264px] font-lato -mb-[5px]">
+              <div className="above-1024:max-w-[364px] max-w-[255px] font-lato -mb-[5px]">
                 Built on a network with hundreds of nodes, there is no central
                 authority and different parties can run different components.
               </div>
@@ -110,18 +115,18 @@ const BoxSection = () => {
               5
             </div>
             <div className=" w-[196px] number-box-border -rotate-[29deg] -top-[50px] -left-[6px]"></div>
-            <div className=" w-[108px] number-box-border -rotate-[60deg] -top-[52px] left-[146px]"></div>
-            <div className=" w-[222px] number-box-border -rotate-[75deg] top-[58px] left-[88px]"></div>
+            <div className=" w-[108px] number-box-border -rotate-[74deg] -top-[52px] left-[160px]"></div>
+            <div className=" w-[248px] number-box-border -rotate-[84deg] top-[72px] left-[91px]"></div>
           </div>
         </div>
-        <div className="box-container absolute right-[25%] top-[67%] custom-lg:right-[12%]  custom-lg:top-[65%]  above-1440:right-[31%]">
+        <div className="box-container absolute right-[17%] top-[67%] custom-lg:right-[14%]  custom-lg:top-[67%]  above-1440:top-[68%] above-1440:right-[25%]">
           <div className=" flex relative max-w-[500px]">
             <div className="box-1 flex flex-col gap-5 ">
               <div className="w-[168px] h-[168px] box-style">
                 <BorderAnimate />
                 <div>Easy-Implementation</div>
               </div>
-              <div className="max-w-[264px] font-lato -mb-[5px]">
+              <div className="above-1024:max-w-[384px] max-w-[255px] font-lato -mb-[5px]">
                 Implement DeRand with minimal code changes. The protocol
                 structure is compatible with other VRF platforms including
                 Chainlink.
