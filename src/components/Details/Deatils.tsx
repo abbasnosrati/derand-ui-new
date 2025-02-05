@@ -66,23 +66,25 @@
 // ];
 const Details = () => {
   return (
-    <div className=" flex relative items-center justify-center mb-24 -mt-28 md:mb-[220px] overflow-hidden">
+    <div className="details flex relative items-center justify-center lg:min-h-[1500px] lg:-mt-72 overflow-hidden">
       <img
-        className="absolute w-[100%] h-[100%]"
+        className="absolute right-0"
         src="./assets/images/charts/chart-bg.svg"
         alt=""
       />
-      <img
-        className="ml-[17px] px-10 hidden above-1440:flex"
-        src="./assets/images/charts/chart.svg"
-        alt=""
-      />
+      <div className="mb-40">
+        <img
+          className="ml-[17px] px-10 hidden above-1440:flex"
+          src="./assets/images/charts/chart.svg"
+          alt=""
+        />
 
-      <img
-        className="md:ml-[17px] px-2 md:px-10 flex above-1440:hidden"
-        src="./assets/images/charts/chart-m.svg"
-        alt=""
-      />
+        <img
+          className="md:ml-[17px] px-2 md:px-10 flex above-1440:hidden"
+          src="./assets/images/charts/chart-m.svg"
+          alt=""
+        />
+      </div>
     </div>
   );
 };

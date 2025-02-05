@@ -1,5 +1,12 @@
+import { useState } from "react";
+import ScrambleText from "../../helper/ScrambleText";
+
 // font-quantico
 const Footer = () => {
+  const [hoverDiscord, setHoverDiscord] = useState(false);
+  const [hoverTwitter, setHoverTwitter] = useState(false);
+  const [hoverGitHub, setHoverGitHub] = useState(false);
+  const [hoverMedium, setHoverMedium] = useState(false);
   return (
     <div className="text-whiteColor m-0 w-full above-lg:h-[420px] h-[200px] -mt-10 footer">
       <div className="flex w-full h-full border-b border-opacity bf-">
@@ -53,28 +60,68 @@ const Footer = () => {
           <div className="footer-cel">
             <div className="w-full h-full footer-border-style"></div>
             <div className="w-full h-full footer-border-style footer-txt-container">
-              <p className="footer-text">Mediume</p>
+              <p
+                className="footer-text cursor-pointer"
+                onMouseEnter={() => setHoverMedium(true)}
+                onMouseLeave={() => setHoverMedium(false)}
+              >
+                {hoverMedium ? (
+                  <ScrambleText isAlphabet={true} value="Medium" />
+                ) : (
+                  "Medium"
+                )}
+              </p>
             </div>
             <div className="w-full h-full footer-border-style"></div>
           </div>
           <div className="footer-row-h  flex">
             <div className="w-full h-full border-r border-b border-opacity"></div>
             <div className="w-full h-full border-r border-b  border-opacity footer-txt-container">
-              <p className="footer-text">Discord</p>
+              <p
+                className="footer-text cursor-pointer"
+                onMouseEnter={() => setHoverDiscord(true)}
+                onMouseLeave={() => setHoverDiscord(false)}
+              >
+                {hoverDiscord ? (
+                  <ScrambleText isAlphabet={true} value="Discord" />
+                ) : (
+                  "Discord"
+                )}
+              </p>
             </div>
             <div className="w-full h-full border-r border-b  border-opacity"></div>
           </div>
-          <div className="footer-row-h   border-b border-opacity flex">
+          <div className="footer-row-h  border-b border-opacity flex">
             <div className="w-full h-full footer-border-style"></div>
             <div className="w-full h-full footer-border-style footer-txt-container">
-              <p className="footer-text">Github</p>
+              <p
+                className="footer-text cursor-pointer"
+                onMouseEnter={() => setHoverGitHub(true)}
+                onMouseLeave={() => setHoverGitHub(false)}
+              >
+                {hoverGitHub ? (
+                  <ScrambleText isAlphabet={true} value="Github" />
+                ) : (
+                  "Github"
+                )}
+              </p>
             </div>
             <div className="w-full h-full footer-border-style"></div>
           </div>
           <div className="footer-cel">
             <div className="w-full h-full footer-border-style"></div>
             <div className="w-full h-full footer-border-style footer-txt-container">
-              <p className="footer-text">Twitter</p>
+              <p
+                className="footer-text cursor-pointer"
+                onMouseEnter={() => setHoverTwitter(true)}
+                onMouseLeave={() => setHoverTwitter(false)}
+              >
+                {hoverTwitter ? (
+                  <ScrambleText isAlphabet={true} value="X" />
+                ) : (
+                  "X"
+                )}
+              </p>
             </div>
             <div className="w-full h-full footer-border-style"></div>
           </div>

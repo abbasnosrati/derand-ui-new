@@ -11,6 +11,14 @@ body {
   mix-blend-mode: hard-light;
 }
 
+.details {
+  /* background-color: white; */
+  background-image: url("./assets/images/charts/chart-bg.svg");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
 .page-noise {
   background-image: url("./assets/images/header/bgNoiseEffect.svg");
   z-index: 1000 !important;

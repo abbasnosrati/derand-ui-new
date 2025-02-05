@@ -2,11 +2,13 @@ import { useEffect, useState } from "react";
 
 interface ScrambleTextProps {
   value: string;
+  isAlphabet?: boolean;
 }
 
-const ScrambleText = ({ value }: ScrambleTextProps) => {
+const ScrambleText = ({ value, isAlphabet = false }: ScrambleTextProps) => {
   const [displayedText, setDisplayedText] = useState(value);
-  const letters = "1234567890";
+  const letters = isAlphabet ? "abcdefghijklmnopqrstuvwxyz" : "1234567890";
+  const time = isAlphabet ? 50 : 200;
 
   useEffect(() => {
     let interval: number | null = null;
@@ -30,7 +32,7 @@ const ScrambleText = ({ value }: ScrambleTextProps) => {
       if (currentIteration > value.length) {
         if (interval !== null) clearInterval(interval);
       }
-    }, 50);
+    }, time);
 
     return () => {
       if (interval !== null) clearInterval(interval);
