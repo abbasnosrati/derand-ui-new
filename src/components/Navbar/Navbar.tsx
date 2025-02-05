@@ -1,3 +1,6 @@
+import { useState } from "react";
+import ScrambleText from "../../helper/ScrambleText";
+
 const Navbar = () => {
   const menuItems = [
     {
@@ -22,6 +25,11 @@ const Navbar = () => {
     },
     { src: "./assets/images/socials/git.svg", address: "" },
   ];
+  const [hoverItem, setHoverItem] = useState<number | null>(null);
+
+  const checkHover = (index: number) => {
+    setHoverItem(index);
+  };
   return (
     <div className="flex flex-col above-lg:flex-row items-center gap-5 justify-between w-full">
       <div className="ml-2 above-lg:ml-[60px] above-1440:ml-[80px] flex items-start justify-start w-full">
@@ -40,8 +48,14 @@ const Navbar = () => {
               className="cursor-pointer"
               onClick={() => window.open(item.scr)}
               key={index}
+              onMouseEnter={() => checkHover(index)}
+              onMouseLeave={() => checkHover(index)}
             >
-              {item.title}
+              {hoverItem == index ? (
+                <ScrambleText value={item.title} isAlphabet={true} />
+              ) : (
+                item.title
+              )}
             </div>
           ))}
           <div className="flex gap-5 items-end justify-end min-w-[115px] mr-2">
