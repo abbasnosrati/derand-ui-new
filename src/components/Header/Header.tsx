@@ -22,8 +22,8 @@ const Header = () => {
             Off-Chain Randomness On-Chain Trust
           </div>
           <div className="mt-8 ml-1 text-[12px] sm:text-sm md:text-[16px]  above-1440:leading-[28px] above-1440:text-[22px] above-1440:mt-14 font-shareTechMono max-w-[350px] sm:max-w-[499px] text-exampleColor leading-[26px]">
-            DeRand leverages MUON decentralized TSS network to provide
-            verifiable random numbers on any EVM and non-EVM blockchain.
+            Flexible, chain-agnostic, cost-efficient  Verifiable RNG built on
+            Muon  Secured by TSS, EigenLayer, & Shield Server
           </div>
         </div>
       </div>
