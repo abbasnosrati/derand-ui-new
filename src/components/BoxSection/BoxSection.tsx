@@ -1,11 +1,16 @@
 const BoxSection = () => {
   return (
-    <div>
-      <div className="text-exampleColor hidden lg:flex text-sm font-shareTechMono -mt-[300px] above-1440:-mt-[250px] relative md:min-h-[1400px] box-section select-none z-30">
-        <div className="box-container absolute right-[42.5%] top-[27%] custom-lg:right-[35%]">
+    <div className="relative">
+      <img
+        className="absolute -top-[80px] right-0"
+        src="./assets/images/bg/exampleSectionBg.svg"
+        alt=""
+      />
+      <div className="text-exampleColor hidden lg:flex text-sm font-shareTechMono relative md:min-h-[1950px] -mt-[325px] box-section select-none z-30">
+        <div className="box-container absolute right-[40.5%] top-[33%] custom-lg:top-[34%] custom-lg:right-[26%]">
           <div className=" flex relative max-w-[500px]">
             <div className="box-1 flex gap-5 items-end ">
-              <div className="w-[124px] h-[124px] box-style">
+              <div className="sm:w-[124px] sm:h-[124px] w-[80px] h-[80px] box-style">
                 <BorderAnimate />
                 <div>Chain-Agnostic</div>
               </div>
@@ -24,10 +29,10 @@ const BoxSection = () => {
           </div>
         </div>
 
-        <div className="box-container absolute right-[17%] above-1440:right-[25%] top-[32%] custom-lg:right-[7%] ">
+        <div className="box-container absolute right-[17%] above-1440:right-[25%] top-[36%] custom-lg:top-[38%]  custom-lg:right-[2%] ">
           <div className=" flex relative max-w-[500px]">
             <div className="box-1 flex flex-col gap-5 ">
-              <div className="w-[124px] h-[124px] box-style">
+              <div className="sm:w-[124px] sm:h-[124px] w-[80px] h-[80px] box-style">
                 <BorderAnimate />
                 <div>Flexible</div>
               </div>
@@ -45,10 +50,10 @@ const BoxSection = () => {
           </div>
         </div>
 
-        <div className="box-container absolute left-[16%] top-[42%]  ">
+        <div className="box-container absolute above-lg:left-[15%] above-1440:left-[25%] top-[44%] ">
           <div className=" flex relative max-w-[500px]">
             <div className="box-1 flex flex-col gap-5 ">
-              <div className="w-[124px] h-[124px] box-style">
+              <div className="sm:w-[124px] sm:h-[124px] w-[80px] h-[80px] box-style">
                 <BorderAnimate />
                 <div>Tamper-Proof</div>
               </div>
@@ -68,7 +73,7 @@ const BoxSection = () => {
           </div>
         </div>
 
-        <div className="box-container absolute right-[19%] top-[55%] above-1440:right-[24%] custom-lg:right-[8%] custom-lg:top-[52%]">
+        <div className="box-container absolute right-[19%] top-[52%] above-1440:right-[24%] custom-lg:right-[2%] custom-lg:top-[52%]">
           <div className=" flex relative max-w-[500px]">
             <div className="box-1 flex flex-col gap-5 ">
               <div className="w-[130px] h-[130px] box-style">
@@ -89,7 +94,7 @@ const BoxSection = () => {
           </div>
         </div>
 
-        <div className="box-container absolute right-[52%] top-[69%] custom-lg:right-[50%] custom-lg:top-[65%]">
+        <div className="box-container absolute right-[52%] top-[62%] custom-lg:right-[45%] custom-lg:top-[60%]">
           <div className=" flex relative max-w-[500px]">
             <div className="box-1 flex flex-col  gap-5 custom-lg:flex-col custom-lg:items-start">
               <div className="w-[170px] h-[170px] box-style">
@@ -109,7 +114,7 @@ const BoxSection = () => {
             <div className=" w-[222px] number-box-border -rotate-[75deg] top-[58px] left-[88px]"></div>
           </div>
         </div>
-        <div className="box-container absolute right-[25%] top-[77%] custom-lg:right-[17%] custom-lg:top-[72%] above-1440:right-[31%] above-1440:top-[77%]">
+        <div className="box-container absolute right-[25%] top-[67%] custom-lg:right-[12%]  custom-lg:top-[65%]  above-1440:right-[31%]">
           <div className=" flex relative max-w-[500px]">
             <div className="box-1 flex flex-col gap-5 ">
               <div className="w-[168px] h-[168px] box-style">
@@ -132,11 +137,11 @@ const BoxSection = () => {
         </div>
       </div>
 
-      <div className="flex sm:justify-center pl-5 sm:md-0 flex-wrap items-center justify-center flex-row w-full lg:hidden text-whiteColor gap-10 mt-40 mb-40">
+      <div className="flex sm:justify-center pl-5 sm:md-0 flex-wrap items-center justify-center flex-row w-full lg:hidden text-whiteColor gap-10 mt-20 sm:mt-40 mb-40">
         <div className="box-container">
           <div className="">
             <div className="small_box">
-              <div className="w-[124px] h-[124px] box-style-small">
+              <div className="sm:w-[124px] sm:h-[124px] w-[80px] h-[80px] box-style-small">
                 <BorderAnimate />
                 <div>Chain-Agnostic</div>
               </div>
@@ -152,7 +157,7 @@ const BoxSection = () => {
         <div className="box-container">
           <div className="">
             <div className="small_box">
-              <div className="w-[124px] h-[124px] box-style-small">
+              <div className="sm:w-[124px] sm:h-[124px] w-[80px] h-[80px] box-style-small">
                 <BorderAnimate />
                 <div>Flexible</div>
               </div>
@@ -167,7 +172,7 @@ const BoxSection = () => {
         <div className="box-container">
           <div className="">
             <div className="small_box ">
-              <div className="w-[124px] h-[124px] box-style-small">
+              <div className="sm:w-[124px] sm:h-[124px] w-[80px] h-[80px] box-style-small">
                 <BorderAnimate />
                 <div>Tamper-Proof</div>
               </div>
@@ -183,7 +188,7 @@ const BoxSection = () => {
         <div className="box-container">
           <div className="">
             <div className="small_box ">
-              <div className="w-[124px] h-[124px] box-style-small">
+              <div className="sm:w-[124px] sm:h-[124px] w-[80px] h-[80px] box-style-small">
                 <BorderAnimate />
                 <div>Cost-Efficient</div>
               </div>
@@ -198,7 +203,7 @@ const BoxSection = () => {
         <div className="box-container">
           <div className="">
             <div className="small_box">
-              <div className="w-[124px] h-[124px] box-style-small">
+              <div className="sm:w-[124px] sm:h-[124px] w-[80px] h-[80px] box-style-small">
                 <BorderAnimate />
                 <div>Decentralized & Permission less</div>
               </div>
@@ -213,7 +218,7 @@ const BoxSection = () => {
         <div className="box-container">
           <div className="">
             <div className="small_box">
-              <div className="w-[124px] h-[124px] box-style-small">
+              <div className="sm:w-[124px] sm:h-[124px] w-[80px] h-[80px] box-style-small">
                 <BorderAnimate />
                 <div>Easy-Implementation</div>
               </div>

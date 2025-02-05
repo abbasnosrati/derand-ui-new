@@ -66,10 +66,21 @@ const data = [
 ];
 const Details = () => {
   return (
-    <div className=" flex items-center justify-center mb-[220px] mt-[200px]">
+    <div className=" flex relative items-center justify-center mb-24 -mt-28 md:mb-[220px] overflow-hidden">
       <img
-        className="ml-[17px] px-10"
+        className="absolute w-[100%] h-[100%]"
+        src="./assets/images/charts/chart-bg.svg"
+        alt=""
+      />
+      <img
+        className="ml-[17px] px-10 hidden above-1440:flex"
         src="./assets/images/charts/chart.svg"
+        alt=""
+      />
+
+      <img
+        className="md:ml-[17px] px-2 md:px-10 flex above-1440:hidden"
+        src="./assets/images/charts/chart-m.svg"
         alt=""
       />
     </div>
