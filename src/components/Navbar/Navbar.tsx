@@ -33,8 +33,8 @@ const Navbar = () => {
           alt=""
         />
       </div>
-      <div className="flex flex-col above-lg:flex-row gap-5 above-lg:gap-10 w-full lg:w-auto">
-        <div className="flex text-[12px] z-50 justify-between md:text-base items-center pl-1 leading-normal font-shareTechMono border-b border-whiteColor text-whiteColor w-full above-lg:w-[520px] above-1440:w-[650px] h-[34px]">
+      <div className="flex flex-col above-lg:flex-row gap-5 above-lg:gap-10 w-full lg:w-auto h-[42px] border-b border-whiteColor">
+        <div className="flex text-[12px] z-50 justify-between md:text-base above-1440:text-[18px] items-center pl-1 leading-normal font-shareTechMono  text-whiteColor w-full above-lg:w-[520px] above-1440:w-[650px] h-[34px]">
           {menuItems.map((item, index) => (
             <div
               className="cursor-pointer"
@@ -44,7 +44,7 @@ const Navbar = () => {
               {item.title}
             </div>
           ))}
-          <div className="flex gap-3 items-end justify-end min-w-[115px] mr-2">
+          <div className="flex gap-5 items-end justify-end min-w-[115px] mr-2">
             {socialItems.map((item, index) => (
               <img
                 onClick={() => window.open(item.address)}
