@@ -99,7 +99,7 @@ const BoxSection = () => {
             <div className="box-1 flex flex-col  gap-5 custom-lg:flex-col custom-lg:items-start">
               <div className="w-[170px] h-[170px] box-style">
                 <BorderAnimate />
-                <div>Decentralized & Permission less</div>
+                <div>Decentralized & Permissionless</div>
               </div>
               <div className="max-w-[264px] font-lato -mb-[5px]">
                 Built on a network with hundreds of nodes, there is no central
@@ -205,7 +205,7 @@ const BoxSection = () => {
             <div className="small_box">
               <div className="sm:w-[124px] sm:h-[124px] w-[80px] h-[80px] box-style-small">
                 <BorderAnimate />
-                <div>Decentralized & Permission less</div>
+                <div>Decentralized & Permissionless</div>
               </div>
               <div className="max-w-[264px] font-lato -mb-[5px]">
                 Built on a network with hundreds of nodes, there is no central
