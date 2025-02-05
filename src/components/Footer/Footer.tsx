@@ -64,14 +64,15 @@ const Footer = () => {
             <div className="w-full h-full footer-border-style"></div>
             <div className="w-full h-full footer-border-style footer-txt-container">
               <p
+                onClick={() => window.open("https://x.com/DeRand_dev")}
                 className="footer-text cursor-pointer"
-                onMouseEnter={() => setHoverMedium(true)}
-                onMouseLeave={() => setHoverMedium(false)}
+                onMouseEnter={() => setHoverTwitter(true)}
+                onMouseLeave={() => setHoverTwitter(false)}
               >
-                {hoverMedium ? (
-                  <ScrambleText isAlphabet={true} value="Medium" />
+                {hoverTwitter ? (
+                  <ScrambleText isAlphabet={true} value="X" />
                 ) : (
-                  "Medium"
+                  "X"
                 )}
               </p>
             </div>
@@ -81,6 +82,7 @@ const Footer = () => {
             <div className="w-full h-full border-r border-b border-opacity"></div>
             <div className="w-full h-full border-r border-b  border-opacity footer-txt-container">
               <p
+                onClick={() => window.open("https://discord.gg/muonnetwork")}
                 className="footer-text cursor-pointer"
                 onMouseEnter={() => setHoverDiscord(true)}
                 onMouseLeave={() => setHoverDiscord(false)}
@@ -99,13 +101,13 @@ const Footer = () => {
             <div className="w-full h-full footer-border-style footer-txt-container">
               <p
                 className="footer-text cursor-pointer"
-                onMouseEnter={() => setHoverGitHub(true)}
-                onMouseLeave={() => setHoverGitHub(false)}
+                onMouseEnter={() => setHoverMedium(true)}
+                onMouseLeave={() => setHoverMedium(false)}
               >
-                {hoverGitHub ? (
-                  <ScrambleText isAlphabet={true} value="Github" />
+                {hoverMedium ? (
+                  <ScrambleText isAlphabet={true} value="Medium" />
                 ) : (
-                  "Github"
+                  "Medium"
                 )}
               </p>
             </div>
@@ -115,14 +117,15 @@ const Footer = () => {
             <div className="w-full h-full footer-border-style"></div>
             <div className="w-full h-full footer-border-style footer-txt-container">
               <p
+                onClick={() => window.open("https://x.com/DeRand_dev")}
                 className="footer-text cursor-pointer"
-                onMouseEnter={() => setHoverTwitter(true)}
-                onMouseLeave={() => setHoverTwitter(false)}
+                onMouseEnter={() => setHoverGitHub(true)}
+                onMouseLeave={() => setHoverGitHub(false)}
               >
-                {hoverTwitter ? (
-                  <ScrambleText isAlphabet={true} value="X" />
+                {hoverGitHub ? (
+                  <ScrambleText isAlphabet={true} value="Github" />
                 ) : (
-                  "X"
+                  "Github"
                 )}
               </p>
             </div>
