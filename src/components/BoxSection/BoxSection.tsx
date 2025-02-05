@@ -2,30 +2,30 @@ const BoxSection = () => {
   return (
     <div className="relative">
       <img
-        className="absolute -top-[80px] right-0"
+        className="absolute -top-[80px] right-0 w-full"
         src="./assets/images/bg/exampleSectionBg.svg"
         alt=""
       />
-      <div className="text-exampleColor hidden lg:flex text-sm font-shareTechMono relative md:min-h-[1950px] -mt-[325px] box-section select-none z-30">
-        <div className="box-container absolute right-[40.5%] top-[33%] custom-lg:top-[34%] custom-lg:right-[26%]">
+      <div className="text-whiteColor hidden lg:flex text-base above-1440:text-[18px] font-shareTechMono relative md:min-h-[1950px] -mt-[325px] box-section select-none z-30">
+        <div className="box-container absolute right-[46.5%] top-[30%] custom-lg:top-[31%] custom-lg:right-[36%] above-1440:top-[27%] above-1440:right-[48%]">
           <div className=" flex relative max-w-[500px]">
-            <div className="box-1 flex gap-5 items-end ">
+            <div className="box-1 flex flex-col gap-5  ">
               <div className="sm:w-[124px] sm:h-[124px] w-[80px] h-[80px] box-style">
                 <BorderAnimate />
                 <div>Chain-Agnostic</div>
               </div>
-              <div className="max-w-[285px] font-lato -mb-[5px] leading-[16px]">
+              <div className="max-w-[285px] font-lato -mb-[5px] ">
                 Generate a random number on one chain and use it on any EVM and
-                non-EVM chains. Thanks to Muon’ intrinsic chain-independant
+                non-EVM chains. Thanks to Muon’ intrinsic chain-independent
                 nature.
               </div>
             </div>
-            <div className="number-box absolute left-[175px] top-[212px]">
+            <div className="number-box absolute left-[120px] top-[290px]">
               1
             </div>
-            <div className=" w-[232px]  number-box-border rotate-[65deg] top-[107px] left-[58px]"></div>
-            <div className=" w-[172px]  number-box-border rotate-[54deg] top-[190px] left-[87px]"></div>
-            <div className=" w-[220px]  number-box-border rotate-[38deg] top-[192px] -left-[22px]"></div>
+            <div className=" w-[290px]  number-box-border rotate-[82deg] top-[144px] left-[2px]"></div>
+            <div className=" w-[205px]  number-box-border rotate-[78deg] top-[225px] left-[42px]"></div>
+            <div className=" w-[240px]  number-box-border rotate-[61deg] top-[230px] -left-[61px]"></div>
           </div>
         </div>
 

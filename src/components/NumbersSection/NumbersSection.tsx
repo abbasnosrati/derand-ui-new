@@ -13,7 +13,7 @@ const NumbersSection = () => {
         <div className="absolute scramble-items top-[300px] left-[114px] text-[12px]">
           <ScrambleText value={"5858114447001"} />
         </div>
-        <div className="absolute scramble-items bottom-16 left-[39px] text-[12px]">
+        <div className="absolute scramble-items bottom-16 left-[39px] text-[14px]">
           <ScrambleText value={"225122"} />
         </div>
         <div className="absolute scramble-items bottom-5 left-[168px] text-base">
@@ -47,7 +47,7 @@ const NumbersSection = () => {
           <ScrambleText value={"669220013"} />
         </div>
 
-        <div className="absolute scramble-items top-[501px] left-[642px] text-[10px]">
+        <div className="absolute scramble-items top-[501px] left-[642px] text-[16px]">
           <ScrambleText value={"056464889898"} />
         </div>
       </div>
