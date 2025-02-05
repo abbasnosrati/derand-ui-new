@@ -21,9 +21,10 @@ const Header = () => {
           <div className="font-quantico text-base sm:text-[36px] md:text-[48px] above-1440:text-[60px] leading-[60px]">
             Off-Chain Randomness On-Chain Trust
           </div>
-          <div className="mt-8 ml-1 text-[12px] sm:text-sm md:text-[16px]  above-1440:leading-[28px] above-1440:text-[22px] above-1440:mt-14 font-shareTechMono max-w-[350px] sm:max-w-[499px] text-exampleColor leading-[26px]">
-            Flexible, chain-agnostic, cost-efficient  Verifiable RNG built on
-            Muon  Secured by TSS, EigenLayer, & Shield Server
+          <div className="mt-6 ml-1 text-[12px] sm:text-sm md:text-[16px] above-1440:leading-[35px] lg:leading-[25px] above-1440:text-[22px] above-1440:mt-6 font-shareTechMono max-w-[320px] sm:max-w-[500px] text-exampleColor leading-[26px]">
+            <p>Flexible, chain-agnostic, cost-efficient </p>
+            <p>Verifiable RNG built on Muon</p>
+            <p>Secured by TSS, EigenLayer & Shield Server</p>
           </div>
         </div>
       </div>
