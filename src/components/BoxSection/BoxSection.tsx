@@ -21,7 +21,7 @@ const BoxSection = () => {
               </div>
               <div className=" max-w-[255px] above-1024:max-w-[355px] font-lato -mb-[5px] ">
                 Generate a random number on one chain and use it on any EVM and
-                non-EVM chains. Thanks to Muon’ intrinsic chain-independent
+                non-EVM chains. Thanks to Muon’s intrinsic chain-independent
                 nature.
               </div>
             </div>
@@ -146,13 +146,13 @@ const BoxSection = () => {
         <div className="box-container">
           <div className="">
             <div className="small_box">
-              <div className="sm:w-[124px] sm:h-[124px] w-[80px] h-[80px] box-style-small">
+              <div className="sm:w-[124px] sm:h-[124px] w-[100px] h-[100px] box-style-small">
                 <BorderAnimate />
                 <div>Chain-Agnostic</div>
               </div>
               <div className="max-w-[285px] font-lato -mb-[5px]">
                 Generate a random number on one chain and use it on any EVM and
-                non-EVM chains. Thanks to Muon’ intrinsic chain-independent
+                non-EVM chains. Thanks to Muon’s intrinsic chain-independent
                 nature.
               </div>
             </div>
@@ -162,7 +162,7 @@ const BoxSection = () => {
         <div className="box-container">
           <div className="">
             <div className="small_box">
-              <div className="sm:w-[124px] sm:h-[124px] w-[80px] h-[80px] box-style-small">
+              <div className="sm:w-[124px] sm:h-[124px] w-[100px] h-[100px] box-style-small">
                 <BorderAnimate />
                 <div>Flexible</div>
               </div>
@@ -177,7 +177,7 @@ const BoxSection = () => {
         <div className="box-container">
           <div className="">
             <div className="small_box ">
-              <div className="sm:w-[124px] sm:h-[124px] w-[80px] h-[80px] box-style-small">
+              <div className="sm:w-[124px] sm:h-[124px] w-[100px] h-[100px] box-style-small">
                 <BorderAnimate />
                 <div>Tamper-Proof</div>
               </div>
@@ -193,7 +193,7 @@ const BoxSection = () => {
         <div className="box-container">
           <div className="">
             <div className="small_box ">
-              <div className="sm:w-[124px] sm:h-[124px] w-[80px] h-[80px] box-style-small">
+              <div className="sm:w-[124px] sm:h-[124px] w-[100px] h-[100px] box-style-small">
                 <BorderAnimate />
                 <div>Cost-Efficient</div>
               </div>
@@ -208,7 +208,7 @@ const BoxSection = () => {
         <div className="box-container">
           <div className="">
             <div className="small_box">
-              <div className="sm:w-[124px] sm:h-[124px] w-[80px] h-[80px] box-style-small">
+              <div className="sm:w-[124px] sm:h-[124px] w-[100px] h-[100px] box-style-small">
                 <BorderAnimate />
                 <div>Decentralized & Permissionless</div>
               </div>
@@ -223,7 +223,7 @@ const BoxSection = () => {
         <div className="box-container">
           <div className="">
             <div className="small_box">
-              <div className="sm:w-[124px] sm:h-[124px] w-[80px] h-[80px] box-style-small">
+              <div className="sm:w-[124px] sm:h-[124px] w-[100px] h-[100px] box-style-small">
                 <BorderAnimate />
                 <div>Easy-Implementation</div>
               </div>
