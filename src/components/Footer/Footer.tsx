@@ -8,10 +8,10 @@ const Footer = () => {
   const [hoverGitHub, setHoverGitHub] = useState(false);
   const [hoverMedium, setHoverMedium] = useState(false);
   return (
-    <div className="text-whiteColor m-0 w-full above-lg:h-[420px] h-[200px] -mt-10 footer">
+    <div className="text-whiteColor m-0 w-full above-lg:h-[620px] h-[240px] footer">
       <div className="flex w-full h-full border-b border-opacity bf-">
         <div className="w-full h-full border-r  border-opacity flex flex-col justify-end">
-          <div className="footer-row-h  border-b border-opacity flex b-r">
+          <div className="footer-row-h  border-b border-opacity flex b-">
             <div className="w-full h-full"></div>
             <div className="w-full h-full footer-border-style"></div>
             <div className="w-full h-full"></div>
@@ -21,7 +21,7 @@ const Footer = () => {
             <div className="w-full h-full footer-border-style"></div>
             <div className="w-full h-full"></div>
           </div>
-          <div className=" flex w-full  ">
+          <div className=" flex w-ful p-0 above-lg:pl-1">
             <div className="w-[66.5%] border-opacity border-b flex items-center justify-center">
               <div className="w-full h-full flex items-center justify-center relative">
                 <img
@@ -29,14 +29,14 @@ const Footer = () => {
                   alt=""
                   width={"60%"}
                 />
-                <p className="footer-text !font-montserrat absolute bottom-1 sm:right-28">
+                <p className="footer-text !font-montserrat absolute bottom-1 sm:right-28 right-6">
                   By muon
                 </p>
               </div>
             </div>
             <div className="w-[33.5%]  border-l border-opacity">
-              <div className="footer-row-h w-full   border-b border-opacity"></div>
-              <div className=" footer-row-h w-full  border-b border-opacity h-full "></div>
+              <div className="footer-row-h w-full  border-b border-opacity "></div>
+              <div className=" footer-row-h w-full border-b border-opacity "></div>
             </div>
           </div>
 
@@ -54,7 +54,7 @@ const Footer = () => {
           </div>
         </div>
         {/* Right side */}
-        <div className="w-full h-full  flex flex-col justify-end">
+        <div className="w-full h-full flex flex-col justify-end">
           <div className="footer-cel">
             <div className="w-full h-full footer-border-style"></div>
             <div className="w-full h-full "></div>
@@ -78,7 +78,7 @@ const Footer = () => {
             </div>
             <div className="w-full h-full footer-border-style"></div>
           </div>
-          <div className="footer-row-h  flex">
+          <div className="footer-row-h flex">
             <div className="w-full h-full border-r border-b border-opacity"></div>
             <div className="w-full h-full border-r border-b  border-opacity footer-txt-container">
               <p
@@ -96,7 +96,7 @@ const Footer = () => {
             </div>
             <div className="w-full h-full border-r border-b  border-opacity"></div>
           </div>
-          <div className="footer-row-h  border-b border-opacity flex">
+          <div className="footer-row-h border-b border-opacity flex">
             <div className="w-full h-full footer-border-style"></div>
             <div className="w-full h-full footer-border-style footer-txt-container">
               <p
