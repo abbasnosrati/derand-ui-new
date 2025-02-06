@@ -5,7 +5,7 @@ const Navbar = () => {
   const menuItems = [
     {
       title: "What is DeRand",
-      scr: " https://medium.com/muon/breaking-rng-barriers-off-chain-verifiable-randomness-856a435f3f5d",
+      src: " https://medium.com/muon/breaking-rng-barriers-off-chain-verifiable-randomness-856a435f3f5d",
     },
     { title: "Explore dapps", src: "https://derand.dev/dapps" },
   ];
@@ -44,7 +44,7 @@ const Navbar = () => {
           {menuItems.map((item, index) => (
             <div
               className="cursor-pointer"
-              onClick={() => window.open(item.scr)}
+              onClick={() => window.open(item.src)}
               key={index}
               onMouseEnter={() => checkHover(index)}
               onMouseLeave={() => checkHover(index)}
