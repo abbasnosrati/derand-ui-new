@@ -30,7 +30,7 @@ const Footer = () => {
                   width={"60%"}
                 />
                 <p className="footer-text !font-montserrat absolute bottom-1 sm:right-28 right-6">
-                  By muon
+                  By Muon
                 </p>
               </div>
             </div>
@@ -123,9 +123,9 @@ const Footer = () => {
                 onMouseLeave={() => setHoverGitHub(false)}
               >
                 {hoverGitHub ? (
-                  <ScrambleText isAlphabet={true} value="Github" />
+                  <ScrambleText isAlphabet={true} value="GitHub" />
                 ) : (
-                  "Github"
+                  "GitHub"
                 )}
               </p>
             </div>
