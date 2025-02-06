@@ -43,7 +43,7 @@ const NumbersSection = () => {
         <div className="absolute scramble-items top-[603px] right-[43px] text-[14px]">
           <ScrambleText value={"998655"} />
         </div>
-        <div className="absolute scramble-items top-[580px] right-[601px] text-[18px]">
+        <div className="absolute scramble-items top-[530px] right-[601px] text-[18px]">
           <ScrambleText value={"669220013"} />
         </div>
 
