@@ -28,9 +28,9 @@ const BoxSection = () => {
             <div className="number-box absolute left-[160px] top-[310px]">
               1
             </div>
-            <div className=" w-[320px]  number-box-border rotate-[83deg] top-[156px] left-[29px]"></div>
+            <div className=" w-[320px]  number-box-border rotate-[83deg] top-[160px] left-[29px]"></div>
             <div className=" w-[200px]  number-box-border rotate-[78deg] top-[265px] left-[88px]"></div>
-            <div className=" w-[250px]  number-box-border rotate-[50deg] top-[265px] -left-[41px]"></div>
+            <div className=" w-[250px]  number-box-border rotate-[50deg] top-[265px] -left-[44px]"></div>
           </div>
         </div>
 
@@ -245,10 +245,10 @@ export default BoxSection;
 const BorderAnimate = () => {
   return (
     <div>
-      <span className="animation-border-spin-x  dashing absolute left-0 top-0 border-whiteColor border-t border-dashed w-[200%] h-full opacity-40"></span>
-      <span className="animation-border-spin-y border-r border-dashed top-0 left-0 absolute w-full h-[200%] border-whiteColor opacity-40"></span>
-      <span className="animation-border-spin-yy animation-test  dashing absolute left-0 top-0  border-l border-dashed w-full h-[200%] border-whiteColor opacity-40"></span>
-      <span className="animation-border-spin-xx absolute left-0 bottom-0 border-b border-dashed w-[200%] h-full border-whiteColor opacity-40"></span>
+      <span className="animation-border-spin-x  dashing absolute left-0 top-0 border-whiteColor border-t border-dashed w-[200%] h-full opacity-50"></span>
+      <span className="animation-border-spin-y border-r border-dashed top-0 left-0 absolute w-full h-[200%] border-whiteColor opacity-50"></span>
+      <span className="animation-border-spin-yy animation-test  dashing absolute left-0 top-0  border-l border-dashed w-full h-[200%] border-whiteColor opacity-50"></span>
+      <span className="animation-border-spin-xx absolute left-0 bottom-0 border-b border-dashed w-[200%] h-full border-whiteColor opacity-50"></span>
     </div>
   );
 };
