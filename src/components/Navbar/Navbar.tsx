@@ -34,8 +34,6 @@ const Navbar = () => {
     <div className="flex flex-col above-lg:flex-row items-center gap-5 justify-between w-full">
       <div className="ml-2 above-lg:ml-[60px] above-1440:ml-[80px] flex items-start justify-start w-full">
         <img
-          // width={131}
-          // height={20}
           className="w-[140px] h-[20px] above-1440:w-[196px] above-1440:h-[27px]"
           src="./assets/images/footer/derand-logo.svg"
           alt=""
