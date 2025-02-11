@@ -22,7 +22,7 @@ const Header = () => {
       <div className="flex flex-col items-center above-lg:items-end above-lg:pr-[122px] pt-5 p-2 above-lg:pt-[62px]  above-lg:gap-[187px]">
         <Navbar />
         <div className="max-w-[542px] -mr-[30px] above-1440:mr-0 above-1440:max-w-[650px] flex flex-col mt-10 above-lg:-mt-[72px] above-1440:mt-[114px]">
-          <div className="font-quantico text-whiteColor text-base sm:text-[36px] md:text-[48px] above-1440:text-[60px] leading-[60px]">
+          <div className="font-quantico text-whiteColor text-base sm:text-[36px] md:text-[48px] above-1440:text-[60px] leading-[66px]">
             Off-Chain Randomness On-Chain Trust
           </div>
           <div className="mt-6 ml-1 text-[12px] sm:text-sm md:text-[16px] above-1440:leading-[35px] lg:leading-[25px] above-1440:text-[22px] above-1440:mt-10 font-shareTechMono max-w-[320px] sm:max-w-[500px] text-whiteColor leading-[26px]">

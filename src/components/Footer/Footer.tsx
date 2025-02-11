@@ -117,7 +117,9 @@ const Footer = () => {
             <div className="w-full h-full footer-border-style"></div>
             <div className="w-full h-full footer-border-style footer-txt-container">
               <p
-                onClick={() => window.open("https://x.com/DeRand_dev")}
+                onClick={() =>
+                  window.open("https://github.com/derand-protocol")
+                }
                 className="footer-text cursor-pointer"
                 onMouseEnter={() => setHoverGitHub(true)}
                 onMouseLeave={() => setHoverGitHub(false)}

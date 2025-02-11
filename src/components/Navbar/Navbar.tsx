@@ -23,7 +23,10 @@ const Navbar = () => {
       src: "./assets/images/socials/medime.svg",
       address: "https://medium.com/muon",
     },
-    { src: "./assets/images/socials/git.svg", address: "" },
+    {
+      src: "./assets/images/socials/git.svg",
+      address: "https://github.com/derand-protocol",
+    },
   ];
   const [hoverItem, setHoverItem] = useState<number | null>(null);
 
