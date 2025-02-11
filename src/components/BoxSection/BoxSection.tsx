@@ -29,7 +29,7 @@ const BoxSection = () => {
               1
             </div>
             <div className=" w-[320px]  number-box-border rotate-[83deg] top-[160px] left-[29px]"></div>
-            <div className=" w-[200px]  number-box-border rotate-[78deg] top-[265px] left-[88px]"></div>
+            <div className=" w-[192px]  number-box-border rotate-[78deg] top-[262px] left-[92px]"></div>
             <div className=" w-[250px]  number-box-border rotate-[50deg] top-[265px] -left-[44px]"></div>
           </div>
         </div>
