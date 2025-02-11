@@ -24,14 +24,16 @@ const Footer = () => {
           <div className=" flex w-ful p-0 above-lg:pl-1">
             <div className="w-[66.5%] border-opacity border-b flex items-center justify-center">
               <div className="w-full h-full flex items-center justify-center relative">
-                <img
-                  src="./assets/images/footer/derand-logo-footer.svg"
-                  alt=""
-                  width={"60%"}
-                />
-                <p className="footer-text !font-montserrat absolute bottom-1 sm:right-28 right-6">
-                  By Muon
-                </p>
+                <div className="w-[60%] relative">
+                  <img
+                    src="./assets/images/footer/derand-logo-footer.svg"
+                    alt=""
+                    width={"100%"}
+                  />
+                  <p className="footer-text !font-montserrat absolute right-0 lg:-right-4 lg:-bottom-10  -bottom-4 sm:-bottom-5">
+                    By Muon
+                  </p>
+                </div>
               </div>
             </div>
             <div className="w-[33.5%]  border-l border-opacity">
