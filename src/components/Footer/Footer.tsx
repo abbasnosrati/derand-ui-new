@@ -102,6 +102,7 @@ const Footer = () => {
             <div className="w-full h-full footer-border-style"></div>
             <div className="w-full h-full footer-border-style footer-txt-container">
               <p
+                onClick={() => window.open("https://medium.com/muon")}
                 className="footer-text cursor-pointer"
                 onMouseEnter={() => setHoverMedium(true)}
                 onMouseLeave={() => setHoverMedium(false)}
