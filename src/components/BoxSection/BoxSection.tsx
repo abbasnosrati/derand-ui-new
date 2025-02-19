@@ -19,7 +19,7 @@ const BoxSection = () => {
                 <BorderAnimate />
                 <div>Chain-Agnostic</div>
               </div>
-              <div className=" max-w-[255px] above-1024:max-w-[355px] font-lato -mb-[5px] ">
+              <div className=" max-w-[255px] above-1024:max-w-[370px] font-lato -mb-[5px] ">
                 Generate a random number on one chain and use it on any EVM and
                 non-EVM chains. Thanks to Muon’s intrinsic chain-independent
                 nature.
@@ -84,7 +84,7 @@ const BoxSection = () => {
                 <BorderAnimate />
                 <div>Cost-Efficient</div>
               </div>
-              <div className="above-1024:max-w-[410px] max-w-[255px] font-lato -mb-[5px]">
+              <div className="above-1024:max-w-[430px] max-w-[255px] font-lato -mb-[5px]">
                 Generating random numbers on DeRand is almost free. Just pay the
                 gas fee for the blockchain and Muon (which is much lower than
                 current RNGs).
@@ -124,7 +124,7 @@ const BoxSection = () => {
             <div className="box-1 flex flex-col gap-5 ">
               <div className="w-[168px] h-[168px] box-style">
                 <BorderAnimate />
-                <div>Easy-Implementation</div>
+                <div className="text-left">Easy-Implementation</div>
               </div>
               <div className="above-1024:max-w-[384px] max-w-[255px] font-lato -mb-[5px]">
                 Implement DeRand with minimal code changes. The protocol
