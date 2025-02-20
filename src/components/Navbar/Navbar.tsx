@@ -7,7 +7,7 @@ const Navbar = () => {
       title: "What is DeRand",
       src: " https://medium.com/muon/breaking-rng-barriers-off-chain-verifiable-randomness-856a435f3f5d",
     },
-    // { title: "Explore dapps", src: "/dapps" },
+    { title: "Explore dapps", src: "/dapps" },
   ];
   const socialItems = [
     {
