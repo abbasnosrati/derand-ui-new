@@ -82,7 +82,7 @@ function DappNavbar() {
           <Box sx={{ flexGrow: 1, display: "flex", alignItems: "center" }}>
             <Link to="/">
               <img
-                src="/assets/logo.png"
+                src="/assets/images/footer/derand-logo.svg"
                 alt="DeRand Logo"
                 style={{
                   height: isMobile ? "20px" : "35px",
